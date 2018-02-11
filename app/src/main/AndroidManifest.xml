@@ -20,7 +20,9 @@
         <activity android:name=".ThreadSwitchActivity" />
         <activity android:name=".MapActivity" />
         <activity android:name=".ZipActivity" />
-        <activity android:name=".FlowableActivity"></activity>
+        <activity android:name=".FlowableActivity" />
+        <activity android:name=".generate.GenerateActivity" />
+        <activity android:name=".BaseActivity"></activity>
     </application>
 
 </manifest>
