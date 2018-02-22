@@ -23,7 +23,21 @@
         <activity android:name=".FlowableActivity" />
         <activity android:name=".rxjava2.GenerateActivity" />
         <activity android:name=".rxjava2.generate.RxCreateActivity" />
-        <activity android:name=".base.BaseOperationActivity"></activity>
+        <activity android:name=".rxjava2.generate.RxDeferActivity" />
+        <activity android:name=".rxjava2.generate.EmptyNeverThrowActivity" />
+        <activity android:name=".rxjava2.generate.RxFromActivity" />
+        <activity android:name=".rxjava2.generate.RxIntervalActivity" />
+        <activity android:name=".rxjava2.generate.RxJustActivity" />
+        <activity android:name=".rxjava2.generate.RxRangeActivity" />
+        <activity android:name=".rxjava2.generate.RxRepeatActivity" />
+        <activity android:name=".rxjava2.generate.RxTimerActivity" />
+        <activity android:name=".rxjava2.TransformActivity" />
+        <activity android:name=".rxjava2.transform.RxBufferActivity" />
+        <activity android:name=".rxjava2.transform.RxFlatMapActivity" />
+        <activity android:name=".rxjava2.transform.RxGroupByActivity" />
+        <activity android:name=".rxjava2.transform.RxMapActivity" />
+        <activity android:name=".rxjava2.transform.RxScanActivity"/>
+        <activity android:name=".rxjava2.transform.RxWindowActivity"/>
     </application>
 
 </manifest>

@@ -25,11 +25,11 @@ public class RxCreateActivity extends BaseOperationActivity {
 
 
     private Observable<Integer> observable;
-    private StringBuilder sb = new StringBuilder();
 
     @Override
     protected void initView() {
-        tvTop.setText("从头开始创建一个Observable\n\n" +
+        tvTop.setText("Create\n\n" +
+                "从头开始创建一个Observable\n\n" +
                 "observable = Observable.create(new ObservableOnSubscribe<Integer>(){\n" +
                 "            @Override\n" +
                 "            public void subscribe(ObservableEmitter<Integer> emitter) throws Exception {\n" +

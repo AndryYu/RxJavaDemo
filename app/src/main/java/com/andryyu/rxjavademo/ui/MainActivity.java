@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.andryyu.rxjavademo.R;
 import com.andryyu.rxjavademo.rxjava2.GenerateActivity;
+import com.andryyu.rxjavademo.rxjava2.TransformActivity;
 import com.andryyu.rxjavademo.ui.adapter.MyAdapter;
 
 import butterknife.BindView;
@@ -71,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(MainActivity.this, GenerateActivity.class));
                         break;
                     case 1:
-                        //startActivity(new Intent(MainActivity.this, TransformActivity.class));
+                        startActivity(new Intent(MainActivity.this, TransformActivity.class));
                         break;
                     case 2:
                        // startActivity(new Intent(MainActivity.this, FilterActivity.class));

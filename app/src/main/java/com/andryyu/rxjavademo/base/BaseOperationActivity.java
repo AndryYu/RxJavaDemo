@@ -1,6 +1,5 @@
 package com.andryyu.rxjavademo.base;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -9,15 +8,22 @@ import com.andryyu.rxjavademo.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.reactivex.Observable;
 
 public abstract class BaseOperationActivity extends BaseActivity {
 
     @BindView(R.id.tv_top)
-    protected  TextView tvTop;
+    protected TextView tvTop;
     @BindView(R.id.tv_bottom)
     protected TextView tvBottom;
     @BindView(R.id.btn_subscribe)
-    protected  Button btnSubscribe;
+    protected Button btnSubscribe;
+    @BindView(R.id.btn_subscribe2)
+    protected Button btnSubscribe2;
+    @BindView(R.id.btn_subscribe3)
+    protected Button btnSubscribe3;
+
+    protected StringBuilder sb = new StringBuilder();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,13 +38,20 @@ public abstract class BaseOperationActivity extends BaseActivity {
 
     /**
      * <p>initView</p>
+     *
      * @description 初始化界面控件
      */
     protected abstract void initView();
 
     /**
      * <p>initData</p>
+     *
      * @description 初始化数据
      */
     protected abstract void initData();
+
+
+    protected void clickSubscribe(){
+
+    }
 }
