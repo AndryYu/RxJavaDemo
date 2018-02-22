@@ -1,4 +1,4 @@
-package com.andryyu.rxjavademo;
+package com.andryyu.rxjavademo.base;
 
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;

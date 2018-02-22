@@ -5,45 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.andryyu.rxjavademo.MainActivity">
+    tools:context="com.andryyu.rxjavademo.ui.MainActivity">
 
-    <Button
-        android:id="@+id/btn_basic"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_Rxjava2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:text="基础调用" />
-
-    <Button
-        android:id="@+id/btn_thread"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:text="线程切换" />
-
-    <Button
-        android:id="@+id/btn_map"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:text="Map类型操作符" />
-
-    <Button
-        android:id="@+id/btn_zip"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:text="Zip操作符" />
-
-    <Button
-        android:id="@+id/btn_flowable"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:text="Flowable操作符" />
+        android:layout_height="match_parent" />
 </LinearLayout>

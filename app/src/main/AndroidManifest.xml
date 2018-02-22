@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,8 +21,9 @@
         <activity android:name=".MapActivity" />
         <activity android:name=".ZipActivity" />
         <activity android:name=".FlowableActivity" />
-        <activity android:name=".generate.GenerateActivity" />
-        <activity android:name=".BaseActivity"></activity>
+        <activity android:name=".rxjava2.GenerateActivity" />
+        <activity android:name=".rxjava2.generate.RxCreateActivity" />
+        <activity android:name=".base.BaseOperationActivity"></activity>
     </application>
 
 </manifest>
