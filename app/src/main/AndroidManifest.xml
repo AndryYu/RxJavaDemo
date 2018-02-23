@@ -24,7 +24,7 @@
         <activity android:name=".rxjava2.GenerateActivity" />
         <activity android:name=".rxjava2.generate.RxCreateActivity" />
         <activity android:name=".rxjava2.generate.RxDeferActivity" />
-        <activity android:name=".rxjava2.generate.EmptyNeverThrowActivity" />
+        <activity android:name=".rxjava2.generate.RxEmptyNeverThrowActivity" />
         <activity android:name=".rxjava2.generate.RxFromActivity" />
         <activity android:name=".rxjava2.generate.RxIntervalActivity" />
         <activity android:name=".rxjava2.generate.RxJustActivity" />
@@ -36,8 +36,19 @@
         <activity android:name=".rxjava2.transform.RxFlatMapActivity" />
         <activity android:name=".rxjava2.transform.RxGroupByActivity" />
         <activity android:name=".rxjava2.transform.RxMapActivity" />
-        <activity android:name=".rxjava2.transform.RxScanActivity"/>
-        <activity android:name=".rxjava2.transform.RxWindowActivity"/>
+        <activity android:name=".rxjava2.transform.RxScanActivity" />
+        <activity android:name=".rxjava2.transform.RxWindowActivity" />
+        <activity android:name=".rxjava2.ErrorActivity" />
+        <activity android:name=".rxjava2.error.RxCatchActivity" />
+        <activity android:name=".rxjava2.error.RxRetryActivity" />
+        <activity android:name=".rxjava2.CombineActivity" />
+        <activity android:name=".rxjava2.combine.RxAndActivity"/>
+        <activity android:name=".rxjava2.combine.RxCombineLatestActivity"/>
+        <activity android:name=".rxjava2.combine.RxMergeActivity"/>
+        <activity android:name=".rxjava2.combine.RxJoinActivity"/>
+        <activity android:name=".rxjava2.combine.RxStartWithActivity"/>
+        <activity android:name=".rxjava2.combine.RxSwitchActivity"/>
+        <activity android:name=".rxjava2.combine.RxZipActivity"/>
     </application>
 
 </manifest>

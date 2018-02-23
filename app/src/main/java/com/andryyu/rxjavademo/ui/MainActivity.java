@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.Button;
 
 import com.andryyu.rxjavademo.R;
+import com.andryyu.rxjavademo.rxjava2.ErrorActivity;
 import com.andryyu.rxjavademo.rxjava2.GenerateActivity;
 import com.andryyu.rxjavademo.rxjava2.TransformActivity;
 import com.andryyu.rxjavademo.ui.adapter.MyAdapter;
@@ -81,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                        // startActivity(new Intent(MainActivity.this, CombineActivity.class));
                         break;
                     case 4:
-                        //startActivity(new Intent(MainActivity.this, ErrorActivity.class));
+                        startActivity(new Intent(MainActivity.this, ErrorActivity.class));
                         break;
                     case 5:
                         //startActivity(new Intent(MainActivity.this, AssistActivity.class));

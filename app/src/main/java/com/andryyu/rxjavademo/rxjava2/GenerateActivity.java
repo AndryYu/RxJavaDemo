@@ -1,14 +1,10 @@
 package com.andryyu.rxjavademo.rxjava2;
 
 import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
 
-import com.andryyu.rxjavademo.R;
-import com.andryyu.rxjavademo.base.BaseActivity;
 import com.andryyu.rxjavademo.base.BaseCategoryActivity;
 import com.andryyu.rxjavademo.modal.OperatorModel;
-import com.andryyu.rxjavademo.rxjava2.generate.EmptyNeverThrowActivity;
+import com.andryyu.rxjavademo.rxjava2.generate.RxEmptyNeverThrowActivity;
 import com.andryyu.rxjavademo.rxjava2.generate.RxCreateActivity;
 import com.andryyu.rxjavademo.rxjava2.generate.RxDeferActivity;
 import com.andryyu.rxjavademo.rxjava2.generate.RxFromActivity;
@@ -19,9 +15,6 @@ import com.andryyu.rxjavademo.rxjava2.generate.RxRepeatActivity;
 import com.andryyu.rxjavademo.rxjava2.generate.RxTimerActivity;
 
 import java.util.ArrayList;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class GenerateActivity extends BaseCategoryActivity {
 
@@ -50,7 +43,7 @@ public class GenerateActivity extends BaseCategoryActivity {
                 startActivity(new Intent(GenerateActivity.this, RxDeferActivity.class));
                 break;
             case 2:
-                startActivity(new Intent(GenerateActivity.this, EmptyNeverThrowActivity.class));
+                startActivity(new Intent(GenerateActivity.this, RxEmptyNeverThrowActivity.class));
                 break;
             case 3:
                 startActivity(new Intent(GenerateActivity.this, RxFromActivity.class));
